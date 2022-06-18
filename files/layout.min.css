@@ -19,6 +19,8 @@ h4,
 h5,
 h6 {
     font-weight: 700;
+    color: white;
+    background-color: #17181c;
 }
 hr.star-dark,
 hr.star-light {
@@ -145,7 +147,7 @@ section h2 {
     }
 }
 header.masthead {
-    padding-top: calc(3rem + 72px);
+    padding-top: 3rem;
     padding-bottom: 3rem;
 }
 header.masthead h1 {
@@ -157,8 +159,8 @@ header.masthead h2 {
 }
 @media (min-width: 992px) {
     header.masthead {
-        padding-top: calc(6rem + 106px);
-        padding-bottom: 6rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
     header.masthead h1 {
         font-size: 4.75em;
@@ -341,4 +343,9 @@ a:hover {
 }
 .close2:before {
     content: "\2573";
+}
+.portfolio-item-caption-content img {
+    border-width: thick;
+    border-color: white;
+    border-style: solid;
 }
